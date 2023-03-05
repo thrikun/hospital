@@ -4,10 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace 闽侯县医院门诊系统
+namespace hospital
 {
     public class AddressService
     {
+
     }
     public class Sheng
     {
@@ -98,11 +99,11 @@ namespace 闽侯县医院门诊系统
         /// <returns></returns>
         public static string[] GetAllShis(string ShengName)
         {
-            switch(ShengName)
+            switch (ShengName)
             {
                 case FJ:
                     {
-                        return new string[] { Shi.LY,Shi.FZ,Shi.ND,Shi.NP,Shi.PT,Shi.QZ,Shi.XM,Shi.ZZ,Shi.SM };
+                        return new string[] { Shi.LY, Shi.FZ, Shi.ND, Shi.NP, Shi.PT, Shi.QZ, Shi.XM, Shi.ZZ, Shi.SM };
                     }
             }
             return null;
@@ -114,7 +115,7 @@ namespace 闽侯县医院门诊系统
         /// <returns></returns>
         public static string[] GetAllXians(string ShiName)
         {
-            switch(ShiName)
+            switch (ShiName)
             {
                 case Shi.LY:
                     {
@@ -147,5 +148,4 @@ namespace 闽侯县医院门诊系统
             return null;
         }
     }
-
 }

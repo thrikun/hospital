@@ -32,7 +32,7 @@
             this.btn_SignUp = new System.Windows.Forms.Button();
             this.btn_Login = new System.Windows.Forms.Button();
             this.txb_Password = new System.Windows.Forms.TextBox();
-            this.txb_Number = new System.Windows.Forms.TextBox();
+            this.txb_UserNo = new System.Windows.Forms.TextBox();
             this.lbl_Password = new System.Windows.Forms.Label();
             this.lbl_Number = new System.Windows.Forms.Label();
             this.SuspendLayout();
@@ -41,7 +41,7 @@
             // 
             this.llbl_MissPassword.AutoSize = true;
             this.llbl_MissPassword.Font = new System.Drawing.Font("楷体", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.llbl_MissPassword.Location = new System.Drawing.Point(165, 153);
+            this.llbl_MissPassword.Location = new System.Drawing.Point(170, 159);
             this.llbl_MissPassword.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.llbl_MissPassword.Name = "llbl_MissPassword";
             this.llbl_MissPassword.Size = new System.Drawing.Size(109, 20);
@@ -53,7 +53,7 @@
             // btn_SignUp
             // 
             this.btn_SignUp.Font = new System.Drawing.Font("楷体", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.btn_SignUp.Location = new System.Drawing.Point(236, 183);
+            this.btn_SignUp.Location = new System.Drawing.Point(241, 189);
             this.btn_SignUp.Margin = new System.Windows.Forms.Padding(4);
             this.btn_SignUp.Name = "btn_SignUp";
             this.btn_SignUp.Size = new System.Drawing.Size(100, 29);
@@ -65,7 +65,7 @@
             // btn_Login
             // 
             this.btn_Login.Font = new System.Drawing.Font("楷体", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.btn_Login.Location = new System.Drawing.Point(84, 183);
+            this.btn_Login.Location = new System.Drawing.Point(89, 189);
             this.btn_Login.Margin = new System.Windows.Forms.Padding(4);
             this.btn_Login.Name = "btn_Login";
             this.btn_Login.Size = new System.Drawing.Size(100, 29);
@@ -77,28 +77,28 @@
             // txb_Password
             // 
             this.txb_Password.Font = new System.Drawing.Font("楷体", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.txb_Password.Location = new System.Drawing.Point(144, 109);
+            this.txb_Password.Location = new System.Drawing.Point(149, 115);
             this.txb_Password.Margin = new System.Windows.Forms.Padding(4);
             this.txb_Password.Name = "txb_Password";
             this.txb_Password.Size = new System.Drawing.Size(151, 30);
             this.txb_Password.TabIndex = 16;
-            this.txb_Password.Text = "xly020710";
+            this.txb_Password.Text = "7056";
             // 
-            // txb_Number
+            // txb_UserNo
             // 
-            this.txb_Number.Font = new System.Drawing.Font("楷体", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.txb_Number.Location = new System.Drawing.Point(143, 52);
-            this.txb_Number.Margin = new System.Windows.Forms.Padding(4);
-            this.txb_Number.Name = "txb_Number";
-            this.txb_Number.Size = new System.Drawing.Size(152, 30);
-            this.txb_Number.TabIndex = 15;
-            this.txb_Number.Text = "3200707001";
+            this.txb_UserNo.Font = new System.Drawing.Font("楷体", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.txb_UserNo.Location = new System.Drawing.Point(148, 58);
+            this.txb_UserNo.Margin = new System.Windows.Forms.Padding(4);
+            this.txb_UserNo.Name = "txb_UserNo";
+            this.txb_UserNo.Size = new System.Drawing.Size(152, 30);
+            this.txb_UserNo.TabIndex = 15;
+            this.txb_UserNo.Text = "3210707035";
             // 
             // lbl_Password
             // 
             this.lbl_Password.AutoSize = true;
             this.lbl_Password.Font = new System.Drawing.Font("楷体", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.lbl_Password.Location = new System.Drawing.Point(81, 113);
+            this.lbl_Password.Location = new System.Drawing.Point(86, 119);
             this.lbl_Password.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbl_Password.Name = "lbl_Password";
             this.lbl_Password.Size = new System.Drawing.Size(69, 20);
@@ -109,7 +109,7 @@
             // 
             this.lbl_Number.AutoSize = true;
             this.lbl_Number.Font = new System.Drawing.Font("楷体", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.lbl_Number.Location = new System.Drawing.Point(81, 56);
+            this.lbl_Number.Location = new System.Drawing.Point(86, 62);
             this.lbl_Number.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbl_Number.Name = "lbl_Number";
             this.lbl_Number.Size = new System.Drawing.Size(69, 20);
@@ -120,12 +120,12 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(408, 262);
+            this.ClientSize = new System.Drawing.Size(414, 260);
             this.Controls.Add(this.llbl_MissPassword);
             this.Controls.Add(this.btn_SignUp);
             this.Controls.Add(this.btn_Login);
             this.Controls.Add(this.txb_Password);
-            this.Controls.Add(this.txb_Number);
+            this.Controls.Add(this.txb_UserNo);
             this.Controls.Add(this.lbl_Password);
             this.Controls.Add(this.lbl_Number);
             this.Name = "frm_User";
@@ -141,7 +141,7 @@
         private System.Windows.Forms.Button btn_SignUp;
         private System.Windows.Forms.Button btn_Login;
         private System.Windows.Forms.TextBox txb_Password;
-        private System.Windows.Forms.TextBox txb_Number;
+        private System.Windows.Forms.TextBox txb_UserNo;
         private System.Windows.Forms.Label lbl_Password;
         private System.Windows.Forms.Label lbl_Number;
     }

@@ -15,6 +15,7 @@ namespace hospital
         public choose()
         {
             InitializeComponent();
+            this.StartPosition = FormStartPosition.CenterScreen;
         }
 
         private void btn_Doctor_Click(object sender, EventArgs e)
@@ -24,7 +25,8 @@ namespace hospital
 
         private void btn_User_Click(object sender, EventArgs e)
         {
-
+            frm_User user = new frm_User();
+            user.ShowDialog();
         }
 
         private void btn_Administator_Click(object sender, EventArgs e)

@@ -122,7 +122,7 @@ namespace hospital
                 MessageBox.Show("注册失败！");
             }
         }
-
+        
         private void btn_Login_Click(object sender, EventArgs e)
         {
 

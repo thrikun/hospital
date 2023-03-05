@@ -36,7 +36,7 @@
             // btn_Administator
             // 
             this.btn_Administator.Font = new System.Drawing.Font("楷体", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.btn_Administator.Location = new System.Drawing.Point(131, 102);
+            this.btn_Administator.Location = new System.Drawing.Point(54, 141);
             this.btn_Administator.Margin = new System.Windows.Forms.Padding(4);
             this.btn_Administator.Name = "btn_Administator";
             this.btn_Administator.Size = new System.Drawing.Size(100, 29);
@@ -48,7 +48,7 @@
             // btn_User
             // 
             this.btn_User.Font = new System.Drawing.Font("楷体", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.btn_User.Location = new System.Drawing.Point(209, 52);
+            this.btn_User.Location = new System.Drawing.Point(54, 83);
             this.btn_User.Margin = new System.Windows.Forms.Padding(4);
             this.btn_User.Name = "btn_User";
             this.btn_User.Size = new System.Drawing.Size(100, 29);
@@ -60,7 +60,7 @@
             // btn_Doctor
             // 
             this.btn_Doctor.Font = new System.Drawing.Font("楷体", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.btn_Doctor.Location = new System.Drawing.Point(54, 52);
+            this.btn_Doctor.Location = new System.Drawing.Point(54, 26);
             this.btn_Doctor.Margin = new System.Windows.Forms.Padding(4);
             this.btn_Doctor.Name = "btn_Doctor";
             this.btn_Doctor.Size = new System.Drawing.Size(100, 29);
@@ -73,7 +73,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(353, 197);
+            this.ClientSize = new System.Drawing.Size(203, 197);
             this.Controls.Add(this.btn_Administator);
             this.Controls.Add(this.btn_User);
             this.Controls.Add(this.btn_Doctor);
