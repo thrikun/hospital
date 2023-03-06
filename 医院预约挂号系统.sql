@@ -1,13 +1,15 @@
+
 IF OBJECT_ID('tb_User') IS NOT NULL
 DROP TABLE tb_User;
 CREATE table tb_User
 (
-Number varchar(30) primary key not null,
+No
+varchar(30) primary key not null,
 Password VARBINARY(128) NOT NULL,
 PassQuestion varchar(Max) null
 );   --患者
 INSERT tb_User
-(Number,Password,PassQuestion)
+(No,Password,PassQuestion)
 VALUES
 ('3210707035',HASHBYTES('MD5','7056'),'tgy，fhm');
 IF OBJECT_ID('tb_campus') IS NOT NULL
@@ -349,3 +351,47 @@ CREATE TABLE tb_RefundInfo
 	INT
 	PRIMARY KEY(Name,Date,Time,Count)
 )
+IF OBJECT_ID('tb_UserInfo') IS NOT NULL--用户信息
+DROP TABLE tb_UserInfo      
+CREATE TABLE tb_UserInfo
+(   No
+    CHAR(10)
+	NOT NULL
+	PRIMARY KEY, 
+   IdCard
+   CHAR(18)
+   NOT NULL
+   ,Phone
+   CHAR(11)
+   NOT NULL
+   ,Name
+   VARCHAR(20)
+   NOT NULL
+   ,Address
+   VARCHAR(100)
+   NOT NULL
+)
+IF OBJECT_ID('tb_Department') IS NOT NULL--科室
+DROP TABLE tb_Department        
+CREATE TABLE tb_Department
+(
+     No
+	 VARCHAR(5)
+	 NOT NULL
+	 PRIMARY KEY
+	 ,Name
+	 VARCHAR(20)
+	 NOT NULL
+)
+INSERT tb_Department   
+(No,Name) VALUES
+('1','眼科'),
+('2','儿科'),
+('3','骨科'),
+('4','妇科'),
+('5','内科'),
+('6','外科'),
+('7','口腔科'),
+('8','皮肤科'),
+('9','耳鼻喉科')
+

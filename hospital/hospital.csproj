@@ -59,6 +59,12 @@
     <Compile Include="frm_AdminLogin.Designer.cs">
       <DependentUpon>frm_AdminLogin.cs</DependentUpon>
     </Compile>
+    <Compile Include="frm_HistoricalCases.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_HistoricalCases.Designer.cs">
+      <DependentUpon>frm_HistoricalCases.cs</DependentUpon>
+    </Compile>
     <Compile Include="frm_HospitalSelfHelpSystem.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -83,6 +89,12 @@
     <Compile Include="frm_NewUser.Designer.cs">
       <DependentUpon>frm_NewUser.cs</DependentUpon>
     </Compile>
+    <Compile Include="frm_OutpatirntAppointment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_OutpatirntAppointment.Designer.cs">
+      <DependentUpon>frm_OutpatirntAppointment.cs</DependentUpon>
+    </Compile>
     <Compile Include="frm_User.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -98,6 +110,12 @@
     <EmbeddedResource Include="frm_AdminLogin.resx">
       <DependentUpon>frm_AdminLogin.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frm_HistoricalCases.resx">
+      <DependentUpon>frm_HistoricalCases.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_HospitalSelfHelpSystem.resx">
+      <DependentUpon>frm_HospitalSelfHelpSystem.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frm_MissPassword.resx">
       <DependentUpon>frm_MissPassword.cs</DependentUpon>
     </EmbeddedResource>
@@ -106,6 +124,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frm_NewUser.resx">
       <DependentUpon>frm_NewUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_OutpatirntAppointment.resx">
+      <DependentUpon>frm_OutpatirntAppointment.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frm_User.resx">
       <DependentUpon>frm_User.cs</DependentUpon>

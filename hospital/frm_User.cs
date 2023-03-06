@@ -52,7 +52,7 @@ namespace hospital
             if (rowCount == 1)                                                                          //若查得所输用户号相应的1行记录；
             {
                 MessageBox.Show("登录成功。");															//显示正确提示；
-                frm_HospitalSelfHelpSystem frm_HospitalSelfHelpSystem= new frm_HospitalSelfHelpSystem();
+                frm_HospitalSelfHelpSystem frm_HospitalSelfHelpSystem= new frm_HospitalSelfHelpSystem(sqlParameter.ParameterName);
                 frm_HospitalSelfHelpSystem.Show();
             }
             else                                                                                        //否则；

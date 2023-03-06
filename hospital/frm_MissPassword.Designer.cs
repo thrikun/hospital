@@ -69,7 +69,7 @@
             this.btn_Catch.Location = new System.Drawing.Point(358, 167);
             this.btn_Catch.Margin = new System.Windows.Forms.Padding(4);
             this.btn_Catch.Name = "btn_Catch";
-            this.btn_Catch.Size = new System.Drawing.Size(100, 29);
+            this.btn_Catch.Size = new System.Drawing.Size(130, 29);
             this.btn_Catch.TabIndex = 15;
             this.btn_Catch.Text = "获取验证码";
             this.btn_Catch.UseVisualStyleBackColor = true;
@@ -139,7 +139,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(501, 333);
+            this.ClientSize = new System.Drawing.Size(528, 333);
             this.Controls.Add(this.btn_Return);
             this.Controls.Add(this.btn_Confrim);
             this.Controls.Add(this.btn_Catch);
